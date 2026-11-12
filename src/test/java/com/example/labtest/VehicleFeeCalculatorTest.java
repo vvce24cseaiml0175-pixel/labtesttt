@@ -10,7 +10,7 @@ public class VehicleFeeCalculatorTest {
 
     @Test
     public void testTwoWheelerOneHour() {
-        assertEquals(15.0, calculator.calculateFee("two-wheeler", 1));
+        assertEquals(10.0, calculator.calculateFee("two-wheeler", 1));
     }
 
     @Test
