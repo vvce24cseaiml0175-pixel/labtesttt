@@ -1,10 +1,10 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://apache.org"
+         xmlns:xsi="http://w3.org"
+         xsi:schemaLocation="http://apache.org https://apache.org">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>labtest</artifactId>
+    <artifactId>sonar-maven-jenkins</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
     <properties>
@@ -12,8 +12,8 @@
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <junit.version>5.10.2</junit.version>
-        <sonar.projectKey>simple-calculator</sonar.projectKey>
-        <sonar.projectName>Simple Calculator</sonar.projectName>
+        <sonar.projectKey>sonar-maven-jenkins</sonar.projectKey>
+        <sonar.projectName>sonar-maven-jenkins</sonar.projectName>
         <sonar.host.url>http://localhost:9000</sonar.host.url>
     </properties>
 
